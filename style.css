@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+.btn {
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+.btn:hover {
+  background-color: rgb(145, 145, 145);
+  height: 49x;
+  width: 49px;
+}
+.btnN {
+  color: white;
+  background-color: black;
+}
+
+#btnsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 25px;
+}
+#arrowRigth {
+  font-size: 55px;
+}
+#parentDiv {
+  display: flex;
+  justify-content: center;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 10%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+i {
+  border: solid white;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+}
+.right:hover {
+  border-color: rgb(145, 145, 145);
+}
+.left:hover {
+  border-color: rgb(145, 145, 145);
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
