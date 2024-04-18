@@ -41,6 +41,31 @@ btn2.addEventListener("click", () => {
   n = 2;
 });
 
+const start = document.getElementById("start");
+const stop = document.getElementById("stop");
+
+let slaydShow;
+
+start.addEventListener("click", () => {
+  slaydShow = setInterval(() => {
+    btn = document.getElementById(`btn${n}`);
+    btn.classList.remove("btnN");
+    if (n + 1 <= picArr.length - 1) {
+      n++;
+    } else {
+      n = 0;
+    }
+    img.src = picArr[n];
+    btn = document.getElementById(`btn${n}`);
+    btn.classList.add("btnN");
+  }, 2000);
+});
+
+stop.addEventListener("click", () => {
+  clearInterval(slaydShow);
+});
+
+
 arrowR.addEventListener("click", () => {
   btn = document.getElementById(`btn${n}`);
   btn.classList.remove("btnN");
