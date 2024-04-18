@@ -5,7 +5,7 @@ body {
 .btn {
   margin: 5px;
   height: 50px;
-  width: 50px;
+  min-width: 50px;
   border-radius: 50%;
   background-color: white;
   color: black;
@@ -17,7 +17,7 @@ body {
 .btn:hover {
   background-color: rgb(145, 145, 145);
   height: 49x;
-  width: 49px;
+  min-width: 49px;
 }
 .btnN {
   color: white;
