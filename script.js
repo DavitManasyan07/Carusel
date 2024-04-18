@@ -10,8 +10,8 @@ const btn2 = document.getElementById("btn2");
 let n = 0;
 let picArr = [
   "./Nissan-GT-R_Nismo-2020-1280-01-1046x616.2.jpg",
-  "./Mazda rx-7.10.jpg",
   "./Toyota-Supra-MK4.2.jpg",
+  "./Mazda rx-7.10.jpg",
 ];
 
 img.src = picArr[0];
