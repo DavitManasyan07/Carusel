@@ -14,6 +14,19 @@ body {
   align-items: center;
   font-size: 32px;
 }
+.miniBtns {
+  margin: 5px;
+  margin-top: 20px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
 .btn:hover {
   background-color: rgb(145, 145, 145);
   height: 49x;
@@ -24,12 +37,14 @@ body {
   background-color: black;
 }
 
-#btnsDiv {
+#btnsDiv,
+#btns {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   height: 25px;
 }
+
 #arrowRigth {
   font-size: 55px;
 }
@@ -44,6 +59,8 @@ body {
 
 img {
   border-radius: 10%;
+  height: 600px;
+  width: 1046px;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
